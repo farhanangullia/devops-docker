@@ -1,0 +1,3 @@
+[submodule "ecommerce-app"]
+	path = ecommerce-app
+	url = https://github.com/farhanangullia/ecommerce-app.git
