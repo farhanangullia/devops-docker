@@ -22,13 +22,13 @@ jobs:
       matrix:
         include:
           - image: ghcr.io/farhanangullia/devops-docker/cart-service
-            context: cart-service
+            context: ecommerce-app/cart-service
           - image: ghcr.io/farhanangullia/devops-docker/catalog-service
-            context: catalog-service
+            context: ecommerce-app/catalog-service
           - image: ghcr.io/farhanangullia/devops-docker/order-service
-            context: order-service
+            context: ecommerce-app/order-service
           - image: ghcr.io/farhanangullia/devops-docker/shipping-service
-            context: shipping-service
+            context: ecommerce-app/shipping-service
             
     permissions:
       contents: read
